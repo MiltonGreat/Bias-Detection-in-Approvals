@@ -30,7 +30,8 @@ This project analyzes loan approval data to detect potential biases based on gen
 2. Statistical Analysis
 - Group-wise Approval Rates: Calculated approval percentages for each demographic group.
 - Chi-Square Tests: Checked for statistically significant relationships between approval rates and sensitive attributes.
-- Disparity Metrics:
+
+Disparity Metrics:
 - Disparity Ratio (min approval rate / max approval rate)
 - Disparity Difference (max rate – min rate)
 
@@ -47,7 +48,8 @@ This project analyzes loan approval data to detect potential biases based on gen
 - Married applicants have moderately higher approval rates (71.69% vs. 64.00%).
 - Property area has a STRONG impact:
 - Semiurban (79.26%) > Urban (64.91%) > Rural (60.28%) (p=0.0004)
-- Intersectional biases exist:
+
+Intersectional biases exist:
 - Single + Urban applicants have the lowest approval rate (56.67%).
 - Married + Semiurban applicants have the highest (81.75%).
 
